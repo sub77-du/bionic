@@ -351,6 +351,11 @@ include $(BUILD_STATIC_LIBRARY)
 # libm.so for target.
 #
 include $(CLEAR_VARS)
+
+LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/libm.map
+
+LOCAL_LDFLAGS := -Wl,--version-script,$(LOCAL_PATH)/libm.map
+
 LOCAL_MODULE:= libm
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
 LOCAL_SYSTEM_SHARED_LIBRARIES := libc
