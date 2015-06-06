@@ -118,6 +118,7 @@ libc_bionic_src_files := \
     bionic/eventfd_write.cpp \
     bionic/ffs.cpp \
     bionic/fgetxattr.cpp \
+    bionic/flistxattr.cpp \
     bionic/flockfile.cpp \
     bionic/fork.cpp \
     bionic/fpclassify.cpp \
