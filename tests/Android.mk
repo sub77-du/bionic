@@ -103,6 +103,7 @@ libBionicStandardTests_src_files := \
     sstream_test.cpp \
     sys_epoll_test.cpp \
     sys_mman_test.cpp \
+    sys_prctl_test.cpp \
     sys_procfs_test.cpp \
     sys_resource_test.cpp \
     sys_select_test.cpp \
