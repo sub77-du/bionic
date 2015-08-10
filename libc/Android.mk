@@ -632,7 +632,6 @@ libc_common_conlyflags := \
 
 # Define some common cppflags
 libc_common_cppflags := \
-    -std=gnu++11
 
 # Define some common includes
 # ========================================================
